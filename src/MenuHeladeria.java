@@ -13,7 +13,7 @@ public class MenuHeladeria extends javax.swing.JFrame {
     /**
      * Creates new form MenuHeladeria
      */
-    public MenuHeladeria(){
+    public MenuHeladeria() {
         initComponents();
         this.setLocationRelativeTo(this);
     }
@@ -45,11 +45,11 @@ public class MenuHeladeria extends javax.swing.JFrame {
         guiPrecioGalleta = new javax.swing.JLabel();
         guiPrecioNeonEspecial = new javax.swing.JLabel();
         guiPrecioVainilla = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
+        guiPuntos2 = new javax.swing.JLabel();
+        guiPuntos3 = new javax.swing.JLabel();
+        guiPuntos1 = new javax.swing.JLabel();
+        guiPuntos5 = new javax.swing.JLabel();
+        guiPuntos4 = new javax.swing.JLabel();
 
         jLabel2.setText("jLabel2");
 
@@ -135,20 +135,20 @@ public class MenuHeladeria extends javax.swing.JFrame {
         guiPrecioVainilla.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
         guiPrecioVainilla.setText("   ¢900");
 
-        jLabel4.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        jLabel4.setText("----------------------");
+        guiPuntos2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        guiPuntos2.setText("----------------------");
 
-        jLabel10.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        jLabel10.setText("----------------------");
+        guiPuntos3.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        guiPuntos3.setText("----------------------");
 
-        jLabel11.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        jLabel11.setText("----------------------");
+        guiPuntos1.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        guiPuntos1.setText("----------------------");
 
-        jLabel12.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        jLabel12.setText("----------------------");
+        guiPuntos5.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        guiPuntos5.setText("----------------------");
 
-        jLabel13.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        jLabel13.setText("----------------------");
+        guiPuntos4.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        guiPuntos4.setText("----------------------");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -166,10 +166,10 @@ public class MenuHeladeria extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel10)
-                            .addComponent(jLabel12)
-                            .addComponent(jLabel13))
+                            .addComponent(guiPuntos2)
+                            .addComponent(guiPuntos3)
+                            .addComponent(guiPuntos5)
+                            .addComponent(guiPuntos4))
                         .addGap(41, 41, 41)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
@@ -182,7 +182,7 @@ public class MenuHeladeria extends javax.swing.JFrame {
                                 .addComponent(guiPrecioNeonEspecial)
                                 .addGap(24, 24, 24))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel11)
+                        .addComponent(guiPuntos1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(guiPrecioVainilla)
                         .addGap(93, 93, 93))))
@@ -207,19 +207,19 @@ public class MenuHeladeria extends javax.swing.JFrame {
                     .addComponent(guiVainilla, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(guiPrecioVainilla)
-                        .addComponent(jLabel11)))
+                        .addComponent(guiPuntos1)))
                 .addGap(49, 49, 49)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(guiChocolate)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(guiprecioChocolate)
-                        .addComponent(jLabel4)))
+                        .addComponent(guiPuntos2)))
                 .addGap(59, 59, 59)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(guiFresa, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(guiPrecioFresa)
-                        .addComponent(jLabel10)))
+                        .addComponent(guiPuntos3)))
                 .addGap(49, 49, 49)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -229,10 +229,10 @@ public class MenuHeladeria extends javax.swing.JFrame {
                             .addComponent(guiNeonEspecial, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(guiPrecioNeonEspecial)
-                                .addComponent(jLabel12))))
+                                .addComponent(guiPuntos5))))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(guiPrecioGalleta)
-                        .addComponent(jLabel13)))
+                        .addComponent(guiPuntos4)))
                 .addContainerGap(55, Short.MAX_VALUE))
         );
 
@@ -252,24 +252,26 @@ public class MenuHeladeria extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-         boolean vainilla = guiVainilla.isSelected();
-         boolean chocolate = guiChocolate.isSelected();
-         boolean fresa = guiFresa.isSelected();
-         boolean galleta = guiGalleta.isSelected();
-         boolean neon = guiNeonEspecial.isSelected();
-            System.out.println("Helado Vainilla:" + vainilla);
-            System.out.println("Helado Chocolate:" + chocolate);
-            System.out.println("Helado Fresa:" + fresa);
-            System.out.println("Helado Galleta:" + galleta);
-            System.out.println("Helado Neon Especial:" + neon);
-            
-            new Factura(vainilla, chocolate, fresa, galleta, neon).setVisible(true);
-            
-            guiVainilla.setSelected(false);
-            guiChocolate.setSelected(false);
-            guiFresa.setSelected(false);
-            guiGalleta.setSelected(false);
-            guiNeonEspecial.setSelected(false);
+        boolean vainilla = guiVainilla.isSelected();
+        boolean chocolate = guiChocolate.isSelected();
+        boolean fresa = guiFresa.isSelected();
+        boolean galleta = guiGalleta.isSelected();
+        boolean neon = guiNeonEspecial.isSelected();
+        
+        System.out.println("Helado Vainilla:" + vainilla);
+        System.out.println("Helado Chocolate:" + chocolate);
+        System.out.println("Helado Fresa:" + fresa);
+        System.out.println("Helado Galleta:" + galleta);
+        System.out.println("Helado Neon Especial:" + neon);
+
+        new Factura(vainilla, chocolate, fresa, galleta, neon).setVisible(true);
+        
+
+        guiVainilla.setSelected(false);
+        guiChocolate.setSelected(false);
+        guiFresa.setSelected(false);
+        guiGalleta.setSelected(false);
+        guiNeonEspecial.setSelected(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void guiVainillaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guiVainillaActionPerformed
@@ -351,6 +353,11 @@ public class MenuHeladeria extends javax.swing.JFrame {
     private javax.swing.JLabel guiPrecioGalleta;
     private javax.swing.JLabel guiPrecioNeonEspecial;
     private javax.swing.JLabel guiPrecioVainilla;
+    private javax.swing.JLabel guiPuntos1;
+    private javax.swing.JLabel guiPuntos2;
+    private javax.swing.JLabel guiPuntos3;
+    private javax.swing.JLabel guiPuntos4;
+    private javax.swing.JLabel guiPuntos5;
     private javax.swing.JButton guiVainilla;
     private javax.swing.JLabel guiprecioChocolate;
     private javax.swing.JButton jButton1;
@@ -358,13 +365,8 @@ public class MenuHeladeria extends javax.swing.JFrame {
     private javax.swing.JButton jButton6;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
